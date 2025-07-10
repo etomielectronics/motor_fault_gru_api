@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: motor_fault_gru_api
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py

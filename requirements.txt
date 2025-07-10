@@ -1,5 +1,4 @@
-flask
-tensorflow
-scikit-learn
-joblib
+Flask
 numpy
+tensorflow-cpu
+joblib

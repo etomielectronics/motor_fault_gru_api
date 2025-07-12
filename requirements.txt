@@ -1,5 +1,4 @@
-flask
+Flask==3.0.1
 tensorflow==2.11.0
-joblib
-numpy
-gunicorn
+numpy==1.23.5
+joblib==1.2.0

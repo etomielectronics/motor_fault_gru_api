@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: motor_fault_gru_api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.13

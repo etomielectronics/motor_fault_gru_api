@@ -20,5 +20,6 @@ def predict():
     prediction = model.predict(scaled_input)
     return jsonify({'fault_prediction': prediction.tolist()})
 
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=10000)
+    app.run(host='0.0.0.0', port=8080)
